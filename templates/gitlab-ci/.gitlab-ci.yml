@@ -1,0 +1,25 @@
+stages:
+  - build
+  - test
+  - security
+  - deploy
+
+build:
+  stage: build
+  script:
+    - echo "Building"
+
+test:
+  stage: test
+  script:
+    - echo "Testing"
+
+security:
+  stage: security
+  script:
+    - echo "Scanning"
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying"

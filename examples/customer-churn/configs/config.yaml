@@ -1,0 +1,10 @@
+project: customer-churn
+
+model:
+  algorithm: xgboost
+
+deployment:
+  platform: kubernetes
+
+tracking:
+  tool: mlflow
